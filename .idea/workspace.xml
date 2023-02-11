@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98f1c304-5618-4bde-8f41-97f8e5f0eeda" name="Changes" comment="events consumer works">
+    <list default="true" id="98f1c304-5618-4bde-8f41-97f8e5f0eeda" name="Changes" comment="window works">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/app/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/Application.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +72,7 @@
       <updated>1676021119646</updated>
       <workItem from="1676021126682" duration="401000" />
       <workItem from="1676021613953" duration="1229000" />
-      <workItem from="1676096473732" duration="4377000" />
+      <workItem from="1676096473732" duration="5324000" />
     </task>
     <task id="LOCAL-00001" summary=" skija connected">
       <created>1676022684265</created>
@@ -86,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676100077232</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="window works">
+      <created>1676101025808</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1676101025808</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,6 +115,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value=" skija connected" />
     <MESSAGE value="events consumer works" />
-    <option name="LAST_COMMIT_MESSAGE" value="events consumer works" />
+    <MESSAGE value="window works" />
+    <option name="LAST_COMMIT_MESSAGE" value="window works" />
   </component>
 </project>
