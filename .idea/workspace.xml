@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98f1c304-5618-4bde-8f41-97f8e5f0eeda" name="Changes" comment="java doc">
+    <list default="true" id="98f1c304-5618-4bde-8f41-97f8e5f0eeda" name="Changes" comment="window title ready">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/macos.icns" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/windows.ico" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/app/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/Application.java" afterDir="false" />
     </list>
@@ -46,6 +48,11 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="H:\Programming\untitled\src\main\resources" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -71,7 +78,8 @@
       <workItem from="1676021126682" duration="401000" />
       <workItem from="1676021613953" duration="1229000" />
       <workItem from="1676096473732" duration="5485000" />
-      <workItem from="1676625309091" duration="654000" />
+      <workItem from="1676625309091" duration="1899000" />
+      <workItem from="1677910827842" duration="767000" />
     </task>
     <task id="LOCAL-00001" summary=" skija connected">
       <created>1676022684265</created>
@@ -101,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676102007600</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="window title ready">
+      <created>1676626151035</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1676626151035</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,6 +138,7 @@
     <MESSAGE value="events consumer works" />
     <MESSAGE value="window works" />
     <MESSAGE value="java doc" />
-    <option name="LAST_COMMIT_MESSAGE" value="java doc" />
+    <MESSAGE value="window title ready" />
+    <option name="LAST_COMMIT_MESSAGE" value="window title ready" />
   </component>
 </project>
