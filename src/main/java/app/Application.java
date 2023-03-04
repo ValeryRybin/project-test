@@ -75,7 +75,10 @@ public class Application implements Consumer<Event> {
         window.setVisible(true);
 
     }
-
+    /**
+     * радиус скругления элементов
+     */
+    public static final int C_RAD_IN_PX = 4;
 
     /**
      * Рисование
