@@ -1,5 +1,6 @@
 package app;
 
+import controls.Label;
 import io.github.humbleui.jwm.*;
 import io.github.humbleui.jwm.App;
 import io.github.humbleui.jwm.Event;
@@ -16,6 +17,7 @@ import java.io.File;
 import java.util.function.Consumer;
 
 import static app.Colors.APP_BACKGROUND_COLOR;
+import static app.Colors.PANEL_BACKGROUND_COLOR;
 
 /**
  * Класс окна приложения
@@ -70,6 +72,7 @@ public class Application implements Consumer<Event> {
         if (window._layer == null)
             throw new RuntimeException("Нет доступных слоёв для создания");
 
+        label = new Label(window, true, PANEL_BACKGROUND_COLOR, PANEL_PADDING, "Привет, мир!");
 
         // делаем окно видимым
         window.setVisible(true);
@@ -79,6 +82,16 @@ public class Application implements Consumer<Event> {
      * радиус скругления элементов
      */
     public static final int C_RAD_IN_PX = 4;
+
+    /**
+     * отступы панелей
+     */
+    public static final int PANEL_PADDING = 5;
+
+    /**
+     * Первый заголовок
+     */
+    private final Label label;
 
     /**
      * Рисование
@@ -91,16 +104,8 @@ public class Application implements Consumer<Event> {
         canvas.save();
         // очищаем канвас
         canvas.clear(APP_BACKGROUND_COLOR);
-        // создаём кисть
-        Paint paint = new Paint();
-        // задаём цвет рисования
-        paint.setColor(Misc.getColor(100, 255, 255, 255));
-        CoordinateSystem2i rectCS = new CoordinateSystem2i(
-                windowCS.getSize().x / 3, windowCS.getSize().y / 3,
-                windowCS.getSize().x / 3, windowCS.getSize().y / 3
-        );
-        // рисуем квадрат
-        canvas.drawRRect(rectCS.getRRect(4), paint);
+        // рисуем заголовок в точке [100,100] с шириной и выостой 200
+        label.paint(canvas, new CoordinateSystem2i(100, 100, 200, 200));
         // восстанавливаем состояние канваса
         canvas.restore();
     }
