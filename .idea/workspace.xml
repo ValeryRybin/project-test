@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98f1c304-5618-4bde-8f41-97f8e5f0eeda" name="Changes" comment="add setColor()">
+    <list default="true" id="98f1c304-5618-4bde-8f41-97f8e5f0eeda" name="Changes" comment="drawign rect works">
+      <change afterPath="$PROJECT_DIR$/src/main/java/misc/Vector2i.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/Application.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +77,7 @@
       <workItem from="1676021613953" duration="1229000" />
       <workItem from="1676096473732" duration="5485000" />
       <workItem from="1676625309091" duration="1899000" />
-      <workItem from="1677910827842" duration="2257000" />
+      <workItem from="1677910827842" duration="3596000" />
     </task>
     <task id="LOCAL-00001" summary=" skija connected">
       <created>1676022684265</created>
@@ -135,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677912585820</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="drawign rect works">
+      <created>1677913386655</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1677913386655</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,6 +168,7 @@
     <MESSAGE value="window icon ready" />
     <MESSAGE value="canvas works" />
     <MESSAGE value="add setColor()" />
-    <option name="LAST_COMMIT_MESSAGE" value="add setColor()" />
+    <MESSAGE value="drawign rect works" />
+    <option name="LAST_COMMIT_MESSAGE" value="drawign rect works" />
   </component>
 </project>
