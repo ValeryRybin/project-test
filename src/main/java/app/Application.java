@@ -1,5 +1,6 @@
 package app;
 
+import controls.InputFactory;
 import controls.Label;
 import io.github.humbleui.jwm.*;
 import io.github.humbleui.jwm.App;
@@ -137,6 +138,7 @@ public class Application implements Consumer<Event> {
 
     }
 
+
     /**
      * Рисование
      *
@@ -208,7 +210,9 @@ public class Application implements Consumer<Event> {
                             return;
 
                         }
+                        case TAB -> InputFactory.nextTab();
                     }
+
             }
         }
         panelControl.accept(e);
