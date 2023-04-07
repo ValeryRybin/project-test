@@ -188,6 +188,10 @@ public class PanelControl extends GridPanel {
         solve.setOnClick(() -> {
             if (!PanelRendering.task.isSolved()) {
                 PanelRendering.task.solve();
+                String s = "Задача решена\n" +
+                        "Пересечений: " + PanelRendering.task.getCrossed().size() / 2 + "\n" +
+                        "Отдельных точек: " + PanelRendering.task.getSingle().size();
+                PanelLog.success(s);
                 solve.text = "Сбросить";
             } else {
                 cancelTask();
@@ -272,6 +276,8 @@ public class PanelControl extends GridPanel {
         for (Button button : buttons) {
             button.paint(canvas, windowCS);
         }
+        solve.text = PanelRendering.task.solveText();
+
         // выводим поля ввода
         for (Input input : inputs) {
             input.paint(canvas, windowCS);
