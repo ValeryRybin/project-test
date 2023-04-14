@@ -74,6 +74,14 @@ public class Colors {
      * Цвет фона
      */
     public static final int HELP_TEXT_BACKGROUND = Misc.getColor(50, 0, 0, 0);
+    /**
+     * Цвет заливки панели
+     */
+    public static final int SCROLLER_BACKGROUND_COLOR = Misc.getColor(150, 83, 38, 70);
+    /**
+     * Цвет заливки панели
+     */
+    public static final int SCROLLER_COLOR = Misc.getColor(255, 83, 38, 70);
 
     /**
      * Запрещённый конструктор
