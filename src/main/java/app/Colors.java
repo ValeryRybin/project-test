@@ -59,6 +59,10 @@ public class Colors {
      */
     public static final int STATS_COLOR = Misc.getColor(255, 51, 200, 51);
     /**
+     * Цвет заливки панели
+     */
+    public static final int DIALOG_BACKGROUND_COLOR = Misc.getColor(230, 70, 38, 83);
+    /**
      * Цвет текста
      */
     public static final int STATS_TEXT_COLOR = Misc.getColor(255, 255, 255, 255);
